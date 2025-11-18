@@ -1130,6 +1130,10 @@ span {
   .menu-thumb {
     display: none !important;
   }
+
+  .header-main {
+    justify-content: start !important;
+  }
 }
 
 .header-main {
@@ -1313,7 +1317,9 @@ span {
 
 @media (max-width: 1399px) {
   .header-main .header-right {
-    gap: 20px;
+    /* gap: 38px; */
+    width: 100%;
+    justify-content: space-between !important;
   }
 }
 
@@ -1511,7 +1517,13 @@ span {
 
 @media (max-width: 1600px) {
   .header-1 .header-right-items {
-    gap: 30px;
+    gap: 0;
+  }
+}
+@media (max-width: 1196px) {
+  .header-1 .header-right-items {
+    gap: 10px;
+    flex: 1;
   }
 }
 
