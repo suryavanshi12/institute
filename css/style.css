@@ -5814,6 +5814,14 @@ span {
   .nano-event-box-items-2 .nano-content {
     padding: 25px;
   }
+
+  .img-center {
+    padding: 40px 10px !important;
+  }
+
+  .img-center img {
+    width: 100% !important;
+  }
 }
 
 .top-banner img {
@@ -7119,6 +7127,7 @@ span {
 @media (max-width: 768px) {
   .pratham-split-banner {
     flex-direction: column;
+    align-items: center;
     height: auto;
   }
 
@@ -7127,16 +7136,19 @@ span {
   }
 
   .top-title-header h2 {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
   }
 
   .highlight-number {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .split-item {
-    height: 300px;
+    min-width: 400px;
+    width: 100%;
+    height: auto;
   }
 
   .caption-overlay h2 {
@@ -7356,36 +7368,38 @@ span {
   }
 
   .top-title-header h2 {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
   }
 
   .highlight-number {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 470px) {
   .nano-cta-new-wrapper h2 {
     font-size: 32px;
-  } 
+  }
 
   .top-title-header {
     padding: 20px;
   }
 
   .top-title-header h2 {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
   }
 
   .highlight-number {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 .nano-cta-new-wrapper form {
-  max-width: 650px; 
+  max-width: 650px;
   width: 100%;
   position: relative;
   margin: 0 auto;
@@ -10043,6 +10057,18 @@ span {
     position: fixed;
     top: 0;
     right: -100%;
+    overflow: scroll;
+    flex-wrap: wrap;
+    padding: 30px 15px 65px 15px;
+  }
+
+  .enquire-form img {
+    width: 100%;
+  }
+
+  .enquire-form form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 }
 
